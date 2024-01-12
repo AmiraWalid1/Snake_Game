@@ -18,7 +18,7 @@ window = curses.newwin(screen_height, screen_width, 0, 0)
 window.keypad(1)
 
 # set the time delay for update the screen
-window.timeout(200)
+window.timeout(150)
 
 # set the y, x cordinate for the intial position of snake
 snk_y = screen_height // 2
